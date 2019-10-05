@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="BaseButtonStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:padding">@dimen/edit_text_internal_padding</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="NextButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/button_next_background</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="PrevButtonStyle" parent="BaseButtonStyle">
+        <item name="android:background">@drawable/button_prev_background</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="BaseEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:padding">@dimen/edit_text_internal_padding</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin_2x</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/et_background</item>
+        <item name="android:layout_width">@dimen/edit_text_width</item>
+    </style>
+
+    <style name="TitleTextViewStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title_font</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin_2x</item>
+    </style>
+    <style name="BulletTextViewStyle" parent="GuideNodeTitleStyle">
+        <item name="android:layout_centerHorizontal">false</item>
+    </style>
+    <style name="GuideNodeTitleStyle" parent="TitleTextViewStyle">
+        <item name="android:textSize">@dimen/title_guide_node_font</item>
+    </style>
+    <style name="SubHeadingStyle" parent="TitleTextViewStyle">
+        <item name="android:textSize">@dimen/sub_heading_font</item>
+        <item name="android:layout_centerHorizontal">false</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="GuideNodeRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/title_guide_node_font</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+    </style>
+</resources>

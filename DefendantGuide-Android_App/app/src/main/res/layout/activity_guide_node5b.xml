@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideNode5b">
+
+
+    <RelativeLayout
+        android:id="@+id/guide_node_5b_relative_layout"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/touchInterceptor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/guide_node_5b_tv"
+            style="@style/GuideNodeTitleStyle"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/enter_form_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/wit1_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/guide_node_5b_tv"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/wit1_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:autofillHints="@string/wit1"
+                android:inputType="textCapWords"
+                android:ems="10"
+                android:hint="@string/wit1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/wit2_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wit1_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/wit2_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="textCapWords"
+                android:autofillHints="@string/wit2"
+                android:ems="10"
+                android:hint="@string/wit2" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/wit3_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wit2_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/wit3_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="textCapWords"
+                android:autofillHints="@string/wit3"
+                android:ems="10"
+                android:hint="@string/wit3" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <!-- -->
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ev1_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wit3_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/ev1_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="textCapWords"
+                android:autofillHints="@string/ev1"
+                android:ems="10"
+                android:hint="@string/ev1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ev2_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ev1_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/ev2_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="textCapWords"
+                android:autofillHints="@string/ev2"
+                android:ems="10"
+                android:hint="@string/ev2" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ev3_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ev2_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/ev3_et_gn5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:inputType="textCapWords"
+                android:autofillHints="@string/ev3"
+                android:ems="10"
+                android:hint="@string/ev3" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailTo_til_gn5b"
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ev3_til_gn5b"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/emailTo_et_gn5b"
+                android:inputType="textEmailAddress"
+                android:autofillHints="@string/emailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/emailAddress" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/prev_button_gn3a"
+            style="@style/PrevButtonStyle"
+            android:onClick="pressBackButton"
+            android:text="@string/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/next_button_gn3a"
+            style="@style/NextButtonStyle"
+            android:background="@drawable/submit_button_background"
+            android:onClick="pressSubmit"
+            android:text="@string/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

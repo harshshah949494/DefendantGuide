@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideNode1">
+
+<RelativeLayout
+    android:id="@+id/guide_node_1_relative_layout"
+    android:padding="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/guide_node_1_tv"
+        style="@style/GuideNodeTitleStyle"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/title_guide_node1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio_group_gn1"
+        android:layout_below="@id/guide_node_1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/gn1_op1"
+            style="@style/GuideNodeRadioButtonStyle"
+            android:layout_width="match_parent"
+            android:text="@string/radio1_gn1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/gn1_op2"
+            style="@style/GuideNodeRadioButtonStyle"
+            android:text="@string/radio2_gn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/gn1_op3"
+            style="@style/GuideNodeRadioButtonStyle"
+            android:text="@string/radio3_gn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/gn1_op4"
+            style="@style/GuideNodeRadioButtonStyle"
+            android:text="@string/radio4_gn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/next_button_gn1"
+        style="@style/NextButtonStyle"
+        android:text="@string/next_button"
+        android:onClick="nextGN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

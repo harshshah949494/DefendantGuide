@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideNode4a">
+
+
+    <RelativeLayout
+        android:id="@+id/guide_node_4a_relative_layout"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/guide_node_4a_tv"
+            style="@style/GuideNodeTitleStyle"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/available_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/radio_group_gn4a"
+            android:layout_below="@id/guide_node_4a_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/gn4a_op1"
+                style="@style/GuideNodeRadioButtonStyle"
+                android:layout_width="match_parent"
+                android:text="@string/steps_prep"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/gn4a_op2"
+                style="@style/GuideNodeRadioButtonStyle"
+                android:text="@string/check_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/prev_button_gn4a"
+            style="@style/PrevButtonStyle"
+            android:onClick="pressBackButton"
+            android:text="@string/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/next_button_gn3b"
+            style="@style/NextButtonStyle"
+            android:text="@string/next_button"
+            android:onClick="nextGN4a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

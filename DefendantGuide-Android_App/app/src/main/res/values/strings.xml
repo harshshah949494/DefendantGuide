@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Defendant Guide</string>
+    <string name="title_search">Keyword Search</string>
+    <string name="title_dashboard">Guide</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="et_hint_search">Search</string>
+    <string name="button_start_guide">Start Guide</string>
+    <string name="title_activity_guide">Guide</string>
+
+    <!-- Guide Node 1 Strings -->
+    <string name="title_guide_node1">Select your problem:</string>
+    <string name="radio1_gn1">Accident</string>
+    <string name="radio2_gn1">Housing</string>
+    <string name="radio3_gn1">Rent</string>
+    <string name="radio4_gn1">Traffic</string>
+    <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
+
+    <!-- Guide Node 2 Strings -->
+    <string name="stage_of_problem">What stage of your problem are you at?</string>
+    <string name="received_complaint">I just received a complaint!</string>
+    <string name="what_to_expect">I want to know what to expect</string>
+    <string name="about_to_go">I am about to go to court</string>
+
+
+    <!-- Guide Node 3 Strings -->
+    <string name="not_possible">Sorry, Small Claims Court cannot be used for traffic tickets!</string>
+    <string name="enter_form_details">Enter form details:</string>
+    <string name="submit">Submit</string>
+    <string name="Defendant1Name">Defendant1 Name</string>
+    <string name="Defendant2Name">Defendant2 Name</string>
+    <string name="AppealDate">Appeal Date</string>
+    <string name="CourtCostsPaid">Court Costs Paid ($)</string>
+
+    <string name="what_to_know">OK! Here is what you should know!</string>
+    <string name="be_on_time">\u2022 Be on Time:</string>
+    <string name="bot_desc">Go to court ten minutes early! It is very important not to be late. If
+        you are the plaintiff and not there when the magistrate calls your case, he or she can dismiss the case.
+        If you are the defendant and not there when the magistrate gets to your case, the plaintiff still must prove the case.
+        But the plaintiff will have a much easier job if you are not there to tell your side of the story.
+</string>
+
+    <string name="communicate_well">\u2022 Communicate well:</string>
+    <string name="communicate_well_desc">When it is your turn to speak, tell your story simply and
+truthfully. Focus on the facts, not your opinion. You should not
+try to act or sound like a lawyer. Just be yourself. Show the
+magistrate any evidence you have. After you have testified,
+your witnesses can testify and you can ask them questions.
+</string>
+
+    <string name="homeButtonText">Home</string>
+
+    <string name="what_you_could_do">What you could do</string>
+    <string name="prepare_for_trail">Prepare for Trial</string>
+    <string name="settle_out">Settle out of court</string>
+
+
+    <!-- Guide Node 4 Strings -->
+    <string name="not_possible2">Sorry! This is not possible!</string>
+    <string name="available_options">Available Options</string>
+    <string name="steps_prep">Steps to Prepare</string>
+    <string name="check_list">Fill out checklist</string>
+    <string name="on_the_day">What happens on the day?</string>
+
+
+    <!-- Guide Node 5 Strings -->
+    <string name="get_evidence">\u2022 Gather evidence</string>
+    <string name="witnesses">\u2022 Witnesses</string>
+    <string name="practice">\u2022 Practice what to say</string>
+    <string name="visit_court">\u2022 Visit the Court</string>
+
+    <string name="get_evidence_desc"> Get together any materials
+you have that will help you prove your side of the story,
+including receipts, letters, photos, leases, cancelled
+checks, contracts, or ledgers. Bring them with you when
+you come to court.
+</string>
+    <string name="witnesses_desc"> Anyone who has first-hand knowledge
+about the case can be a witness - friends, family members, strangers, even a child. If they can help you prove
+your side of the story, they can help you in your trial. But
+they have to come to court to tell the judge themselves
+about what they saw or know.</string>
+    <string name="practice_desc">\Practice what you are going to say. Before you go
+to court, practice. Think about what questions the other
+side and the judge may ask you in court. Think about
+how you should answer them. </string>
+    <string name="visit_court_desc"> If you have time, go to Small
+Claims Court to see what it is like. This can be especially
+helpful if you have never been in court. Small Claims Court
+is much more informal than other courtrooms.
+</string>
+
+
+    <string name="evidence_checklist">Evidence</string>
+    <string name="witnesses_checklist">Witnesses</string>
+
+    <string name="ev1">Evidence1</string>
+    <string name="wit1">Witness1</string>
+    <string name="ev2">Evidence2</string>
+    <string name="wit2">Witness2</string>
+    <string name="ev3">Evidence3</string>
+    <string name="wit3">Witness3</string>
+
+    <string name="emailAddress">Email ID</string>
+
+</resources>

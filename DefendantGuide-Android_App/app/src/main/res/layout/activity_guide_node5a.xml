@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideNode5a">
+
+
+    <RelativeLayout
+        android:id="@+id/guide_node_5a_relative_layout"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/guide_node_5a_tv"
+            style="@style/GuideNodeTitleStyle"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/steps_prep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text1_5a"
+            style="@style/SubHeadingStyle"
+            android:layout_below="@id/guide_node_5a_tv"
+            android:text="@string/get_evidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text1_desc_5a"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/bullet_text1_5a"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/bullet_text1_5a"
+            android:text="@string/get_evidence_desc"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text2_5a"
+            style="@style/SubHeadingStyle"
+            android:layout_below="@id/bullet_text1_desc_5a"
+            android:text="@string/witnesses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text2_desc_5a"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/bullet_text2_5a"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/bullet_text1_5a"
+            android:text="@string/witnesses_desc"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bullet_text3_5a"
+            style="@style/SubHeadingStyle"
+            android:layout_below="@id/bullet_text2_desc_5a"
+            android:text="@string/practice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text3_desc_5a"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/bullet_text3_5a"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/bullet_text3_5a"
+            android:text="@string/practice_desc"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text4_5a"
+            style="@style/SubHeadingStyle"
+            android:layout_below="@id/bullet_text3_desc_5a"
+            android:text="@string/visit_court"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bullet_text4_desc_5a"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_below="@id/bullet_text4_5a"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/bullet_text4_5a"
+            android:text="@string/visit_court_desc"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/prev_button_gn3c"
+            style="@style/PrevButtonStyle"
+            android:onClick="pressBackButton"
+            android:text="@string/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/next_button_gn3a"
+            style="@style/NextButtonStyle"
+            android:background="@drawable/submit_button_background"
+            android:onClick="onHomePressed"
+            android:text="@string/homeButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
